@@ -1,4 +1,4 @@
-﻿namespace mission1
+﻿namespace mission2
 {
     partial class Form1
     {
@@ -28,37 +28,37 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.bttnRef = new System.Windows.Forms.Button();
-            this.TbForRef = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.SuspendLayout();
             // 
-            // bttnRef
+            // textBox1
             // 
-            this.bttnRef.Location = new System.Drawing.Point(12, 311);
-            this.bttnRef.Name = "bttnRef";
-            this.bttnRef.Size = new System.Drawing.Size(89, 23);
-            this.bttnRef.TabIndex = 0;
-            this.bttnRef.Text = "Показать тип";
-            this.bttnRef.UseVisualStyleBackColor = true;
-            this.bttnRef.Click += new System.EventHandler(this.bttnRef_Click);
+            this.textBox1.Location = new System.Drawing.Point(12, 12);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(120, 20);
+            this.textBox1.TabIndex = 0;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // TbForRef
+            // numericUpDown1
             // 
-            this.TbForRef.Location = new System.Drawing.Point(12, 12);
-            this.TbForRef.Multiline = true;
-            this.TbForRef.Name = "TbForRef";
-            this.TbForRef.Size = new System.Drawing.Size(776, 281);
-            this.TbForRef.TabIndex = 1;
+            this.numericUpDown1.Location = new System.Drawing.Point(12, 38);
+            this.numericUpDown1.Name = "numericUpDown1";
+            this.numericUpDown1.Size = new System.Drawing.Size(120, 20);
+            this.numericUpDown1.TabIndex = 1;
+            this.numericUpDown1.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.TbForRef);
-            this.Controls.Add(this.bttnRef);
+            this.Controls.Add(this.numericUpDown1);
+            this.Controls.Add(this.textBox1);
             this.Name = "Form1";
             this.Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -66,8 +66,8 @@
 
         #endregion
 
-        private System.Windows.Forms.Button bttnRef;
-        private System.Windows.Forms.TextBox TbForRef;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.NumericUpDown numericUpDown1;
     }
 }
 

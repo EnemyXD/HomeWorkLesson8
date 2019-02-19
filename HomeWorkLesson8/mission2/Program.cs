@@ -4,11 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-//Калмыков
-
-//С помощью рефлексии выведите все свойства структуры DateTime
-
-namespace mission1
+namespace mission2
 {
     static class Program
     {

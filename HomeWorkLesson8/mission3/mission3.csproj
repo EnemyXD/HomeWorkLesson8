@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{727ED8E0-12AF-4DAE-91FA-5E5F6178FF3B}</ProjectGuid>
+    <ProjectGuid>{2028C6B3-2687-4B4A-9A8A-6B5338DC6581}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>mission1</RootNamespace>
-    <AssemblyName>mission1</AssemblyName>
+    <RootNamespace>mission3</RootNamespace>
+    <AssemblyName>mission3</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -54,7 +54,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Ref.cs" />
+    <Compile Include="Question.cs" />
+    <Compile Include="TrueFalse.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
